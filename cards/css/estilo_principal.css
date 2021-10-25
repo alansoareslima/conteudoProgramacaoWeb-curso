@@ -1,0 +1,51 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: darkgoldenrod;
+    height: 100%;
+}
+
+.produtos{
+    background-color: darkorange;
+    min-height: 400px;
+}
+
+.produtos div{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: solid 4px darkgreen;
+    text-align: center;
+    margin: 10px;
+    float: left;
+
+}
+
+.produtos div img{
+    width: 100%;
+    background-color: white;
+}
+
+.produtos div p{
+    font-size: 22px;
+    border-bottom: solid 4px darkgreen;
+}
+
+.produtos div h1{
+    font-size: 26px;
+    background-color: lawngreen;
+    margin: -2px;
+    height: 100%;
+    border-top: solid 9px lawngreen;
+    border-collapse: collapse;
+
+}
