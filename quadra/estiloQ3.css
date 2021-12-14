@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.central {
+    width: 568px;
+    margin: 40px auto;
+    background-color: bisque;
+    background-size: 568px;
+    box-shadow: black 0px 20px 54px 20px;
+}
+
+.quadra {
+    height: 357px;
+    width: 568px;
+    background-image: url(images/quadra.jpg);
+}
+
+.lugar {
+    width:20px;
+	height:20px;
+	text-align:center;
+	line-height:50px;
+	font-size:16px;
+	margin:52px 0 0 16.5px;
+	background-color: aliceblue;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: black 0px 0px 10px 2px;	
+}
+
+/* ALA ESQUERDA */
+#P1 {
+    position: absolute;
+    right: 820px;
+}
+
+/* PIVÔ */
+#P2 {
+    position: absolute;
+    right: 630px;
+}
+
+/* FIXO */
+#P3 {
+    position: absolute;
+    right: 750px;
+}
+
+/* GOLEIRO */
+#P4 {
+    position: absolute;
+    right: 977px;
+}
+
+/* ALA DIREITA */
+#P5 {
+    position: absolute;
+    right: 820px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estiloIndex.css">
+    <link rel="stylesheet" href="quadra.css">
+    <title>Sistema 1x3</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+
+    </script>
+    
+    <link rel="stylesheet" href="estiloQ4.css">
+
+</head>
+<body id="fundo" class="body">
+
+    <nav id="nav-principal">
+        <div class="logo" id="logoTipo"><strong>FutSelect GO!</strong></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="estrategias.html">Estratégias</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+        <div class="burguer">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+
+    <script src="index.js"></script>
+
+    <div class="selecionar">
+        <a href="quadra.html"><p>SISTEMA 3X1</p></a>
+        <a href="quadra2.html"><p>SISTEMA 2X2</p></a>
+        <a href="quadra3.html"><p>SISTEMA 2X1X1</p></a>
+        <a href="quadra4.html"><p>SISTEMA 1X3</p></a>
+    </div>
+
+    <div class="central">
+        <div class="quadra">
+            <div class="posicoes">
+                <script>
+                    for(x=1;x<=5; x++){
+                        posicao = "P" + x;
+                        document.write("<div id="+posicao+" class= lugar></div>");
+                        if(x == 1){
+                            document.write("<br><br><br><br><br>");
+                        }
+                        if(x == 4){
+                            document.write("<br><br><br><br><br>");
+                        }
+                    }
+
+                </script>
+
+            </div>
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>
